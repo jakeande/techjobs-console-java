@@ -100,13 +100,6 @@ public class JobData {
         }
         return searchJob;
     }
-        // similar to above, loop through all jobs
-            // for each job, loop through each job HashMap, ,,, if (aValue.contains(value)) { jobs.add(row)) like above
-            // for  each column, check for a match need a while loop then need to kill the loop with a break statement to start the loop again
-            // when find a match break
-            //
-
-   // }
     /**
      * Read in data from a CSV file and store it in a list
      */

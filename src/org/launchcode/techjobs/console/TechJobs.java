@@ -120,8 +120,6 @@ public class TechJobs {
         for (HashMap<String, String> somejob : someJobs) {
             System.out.println("***");
             for (Map.Entry<String, String> entry : somejob.entrySet()) {
-                //String key = entry.getKey();
-                //String value = entry.getValue();
                 System.out.println(entry.getKey() + ": " + entry.getValue());
             }
         }
