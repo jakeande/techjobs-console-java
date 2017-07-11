@@ -115,12 +115,12 @@ public class TechJobs {
         //loop over somejobs
         // loop over key value pairs for each job
         if (someJobs.equals("")) {
-            System.out.println("printJobs is not implemented yet");
+            System.out.println("No Results");
         }
         for (HashMap<String, String> somejob : someJobs) {
             System.out.println("***");
             for (Map.Entry<String, String> entry : somejob.entrySet()) {
-                System.out.println(entry.getKey() + ": " + entry.getValue());
+                System.out.println(entry.getKey() + " : " + entry.getValue());
             }
         }
     }
